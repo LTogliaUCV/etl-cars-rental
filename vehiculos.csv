@@ -1,0 +1,101 @@
+id_vehiculo,marca,modelo,anio,tipo,capacidad,color,kilometraje,estado
+1,"Berry, Jensen and Collins",toward,2017,Sedan,5,PaleTurquoise,70909,Disponible
+2,Ortega LLC,peace,2019,Sedan,8,RoyalBlue,41372,Disponible
+3,Fischer-Horne,ago,2017,Sedan,8,BlanchedAlmond,68533,En renta
+4,Villa-Estrada,scene,2022,Pickup,5,PaleTurquoise,13656,En renta
+5,"Baldwin, Dougherty and Hawkins",action,2021,Pickup,6,LightCoral,27157,Disponible
+6,"Walker, Short and Schmitt",must,2019,Sedan,8,LightGoldenRodYellow,92626,En renta
+7,Harper Group,rather,2023,SUV,2,DarkSalmon,87678,En renta
+8,"Jackson, Mejia and Stanley",actually,2023,SUV,5,Purple,89263,Disponible
+9,Porter and Sons,plan,2015,SUV,5,Turquoise,42990,En mantenimiento
+10,Soto-Martin,you,2019,SUV,8,Gold,46793,En renta
+11,Tyler-Wilson,power,2022,Pickup,4,LightSlateGray,59896,En mantenimiento
+12,Webb Group,including,2016,Pickup,7,PaleGoldenRod,98249,Disponible
+13,"Smith, Steele and Brown",dream,2022,Pickup,8,Cyan,26837,Disponible
+14,Anderson LLC,rate,2021,Sedan,5,Green,83074,En mantenimiento
+15,Ortiz Ltd,finish,2020,SUV,4,Maroon,52920,En renta
+16,Salinas PLC,collection,2022,Pickup,5,PeachPuff,93072,En renta
+17,Wright-Castillo,sell,2023,Pickup,2,LightPink,67050,Disponible
+18,"Perez, Schultz and Roberts",statement,2020,Pickup,4,HotPink,19837,Disponible
+19,Hall-Hall,surface,2023,Sedan,6,Silver,92074,En mantenimiento
+20,Wright-Smith,what,2015,Pickup,6,IndianRed,20594,Disponible
+21,Reynolds PLC,site,2017,Sedan,7,FireBrick,83783,En renta
+22,Keller Inc,individual,2016,SUV,8,LightPink,58639,Disponible
+23,"Garcia, Wade and Ortega",specific,2016,Sedan,3,DarkOrchid,49455,En mantenimiento
+24,"Dean, Snyder and Gonzalez",try,2021,Pickup,8,Orange,41154,En mantenimiento
+25,Smith Ltd,nature,2019,SUV,7,Chartreuse,60951,Disponible
+26,"Andrade, Gonzalez and Chan",fill,2017,Pickup,3,Red,83465,En mantenimiento
+27,Lawrence-Cooper,star,2021,Sedan,5,DeepSkyBlue,71904,En mantenimiento
+28,"Harris, Fuller and Clark",add,2021,SUV,4,SeaShell,13385,Disponible
+29,Lara-Ward,sell,2018,Sedan,2,MediumSeaGreen,88167,En mantenimiento
+30,"Burns, Bradford and Hunter",employee,2016,SUV,8,Magenta,65798,Disponible
+31,Mcdaniel LLC,education,2023,SUV,5,Sienna,85708,En mantenimiento
+32,"Martinez, Berger and Salazar",table,2023,SUV,7,HotPink,13389,En mantenimiento
+33,Parsons-Allison,pass,2016,SUV,8,Chocolate,51048,Disponible
+34,Jackson LLC,option,2018,Sedan,3,GhostWhite,42702,En renta
+35,"King, Keller and Wang",middle,2018,Pickup,6,DarkSeaGreen,55224,En renta
+36,Thomas Ltd,such,2023,SUV,7,MediumAquaMarine,21418,Disponible
+37,Irwin-George,any,2016,SUV,5,YellowGreen,37287,En renta
+38,Nash-Anderson,free,2021,SUV,4,MediumTurquoise,48475,En renta
+39,"Taylor, Clayton and Fry",pull,2016,Pickup,5,DarkViolet,51441,Disponible
+40,Gonzalez Inc,father,2020,Pickup,4,Navy,32019,En renta
+41,"Olson, Mathews and Wilson",image,2019,Pickup,5,Thistle,28914,En renta
+42,Martin-Martinez,thus,2022,Sedan,3,PapayaWhip,57776,Disponible
+43,"Boyd, Wyatt and Turner",class,2022,Sedan,7,OrangeRed,34962,En renta
+44,Buchanan-Williams,else,2016,Sedan,8,Gold,30935,En renta
+45,"Hill, Greene and Hill",property,2021,SUV,5,Turquoise,56474,En mantenimiento
+46,Clark-Brown,soldier,2021,Sedan,5,DodgerBlue,87663,En mantenimiento
+47,Medina and Sons,citizen,2023,SUV,3,LightGreen,23921,En mantenimiento
+48,"Garcia, Boyd and Livingston",group,2018,SUV,4,Azure,37933,Disponible
+49,Perry PLC,population,2019,SUV,2,White,65805,Disponible
+50,Gonzalez-Schneider,few,2019,Sedan,5,Blue,41837,En renta
+51,Wade and Sons,fight,2023,Pickup,2,DarkRed,95967,En renta
+52,Kennedy-Love,do,2015,Pickup,5,MediumPurple,48830,En mantenimiento
+53,Odonnell-Hebert,movie,2023,Pickup,4,PaleTurquoise,72566,En mantenimiento
+54,Parks-Livingston,simple,2023,Sedan,4,DarkRed,67504,Disponible
+55,Hicks-Moore,gas,2023,Sedan,7,MintCream,69824,En mantenimiento
+56,"Garcia, Foster and Rodriguez",expect,2015,Sedan,6,PaleGreen,27745,En mantenimiento
+57,Robinson-Vargas,impact,2020,Pickup,5,PaleGoldenRod,63892,En renta
+58,Castillo Ltd,so,2015,Pickup,8,LightSteelBlue,31923,Disponible
+59,"Allen, Miller and Chan",attack,2023,Pickup,6,FireBrick,94328,En mantenimiento
+60,Mcgee and Sons,situation,2017,SUV,2,DarkGoldenRod,82458,Disponible
+61,"Mcknight, Sutton and Welch",life,2020,SUV,6,Gainsboro,34372,Disponible
+62,Holland Ltd,bar,2015,SUV,7,SkyBlue,42333,En mantenimiento
+63,"Robertson, Hensley and Petty",local,2018,SUV,2,ForestGreen,85700,Disponible
+64,"Rogers, Miller and Callahan",girl,2015,Pickup,2,CadetBlue,11919,En renta
+65,"Harrington, Case and Greer",already,2015,Sedan,3,Crimson,14643,En renta
+66,Walls Group,member,2015,Pickup,4,SandyBrown,79936,En renta
+67,Ross PLC,chance,2023,SUV,6,OrangeRed,90454,En renta
+68,"Whitehead, Wood and Jackson",into,2017,SUV,4,DodgerBlue,84892,En mantenimiento
+69,"Williams, Harvey and Morris",bar,2018,Pickup,3,MistyRose,52562,En mantenimiento
+70,"Montoya, Curry and Andrade",music,2022,SUV,8,SaddleBrown,15716,En mantenimiento
+71,Meadows-Grant,organization,2023,SUV,5,LightSalmon,85615,En renta
+72,"Harvey, Alexander and Hernandez",TV,2015,Sedan,5,DarkOrange,43774,En renta
+73,Vazquez-Jenkins,those,2021,Sedan,6,SaddleBrown,41333,En renta
+74,Dillon Inc,morning,2017,SUV,8,DarkBlue,59853,Disponible
+75,"Salas, Smith and Myers",scientist,2015,Pickup,7,DarkSlateGray,47591,En renta
+76,Parsons-Gilmore,your,2021,Pickup,6,Linen,60766,En renta
+77,Patel Inc,mouth,2015,Sedan,7,Magenta,69948,Disponible
+78,Todd-Schneider,least,2017,Sedan,3,MediumVioletRed,79022,En mantenimiento
+79,"Daniels, Lynch and Flores",book,2017,Pickup,8,MediumBlue,14680,En mantenimiento
+80,Adams Group,happen,2017,SUV,5,DarkSalmon,60929,En renta
+81,"Peterson, Ramirez and Kaufman",professional,2021,Sedan,6,LightCyan,84799,En renta
+82,"Brown, Thomas and Torres",place,2023,Sedan,6,Purple,55070,En renta
+83,Mendez-Valdez,imagine,2016,Sedan,5,MediumSlateBlue,68144,Disponible
+84,Moore-Johnson,interest,2017,SUV,2,SpringGreen,20842,En renta
+85,Osborne-Olson,animal,2022,Pickup,5,BurlyWood,53399,Disponible
+86,"Hill, Gould and Pena",bar,2015,SUV,6,DarkSlateGray,60754,En mantenimiento
+87,"Williams, Small and Whitney",lose,2016,Sedan,2,SkyBlue,71115,En renta
+88,Montoya LLC,day,2017,SUV,2,OliveDrab,62214,En mantenimiento
+89,Sullivan-Smith,role,2015,SUV,6,Lime,41459,En mantenimiento
+90,Wright-Hansen,matter,2021,SUV,4,YellowGreen,12988,En mantenimiento
+91,Mcneil PLC,raise,2017,Pickup,6,DarkOliveGreen,22089,Disponible
+92,"Simmons, Avery and Ward",action,2015,Pickup,5,BurlyWood,34872,En mantenimiento
+93,Ortiz-Lewis,call,2020,Pickup,3,Cornsilk,52972,En renta
+94,Brady-Todd,threat,2022,Sedan,6,Aqua,17708,En mantenimiento
+95,Shaw Ltd,type,2021,Pickup,6,SandyBrown,83051,En mantenimiento
+96,Murphy and Sons,anyone,2015,Sedan,7,LightSkyBlue,28464,Disponible
+97,Chen-Vasquez,Democrat,2019,Pickup,4,Brown,24681,En renta
+98,Day-Green,candidate,2015,Sedan,6,Teal,15853,En mantenimiento
+99,"Boyd, Grant and Chapman",student,2022,SUV,5,MediumAquaMarine,61751,Disponible
+100,"Rhodes, Johnson and Torres",billion,2022,Pickup,3,Plum,43088,En renta
