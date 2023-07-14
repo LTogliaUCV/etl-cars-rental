@@ -1,7 +1,17 @@
 import pandas as pd
 import sqlite3
 import logging
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
+db_name = os.getenv("RENTAL_CAR_DB")
+table_vehiculos = os.getenv("VEHICULOS_TABLE")
+table_clientes = os.getenv("CLIENTES_TABLE")
+table_puntos_renta = os.getenv("PUNTOS_RENTA_TABLE")
+table_rentas = os.getenv("RENTAS_TABLE")
+
+conn = sqlite3.connect(db_name)
 
 class RentasETL:
 
@@ -10,7 +20,7 @@ class RentasETL:
         self.puntos_renta_file = puntos_renta_file
         self.clientes_file = clientes_file
         self.rentas_file = rentas_file
-        self.conn = sqlite3.connect('renta_vehiculos.db')
+        self.conn = sqlite3.connect(db_name)
         self.vehiculos_inserted_ids = []
         self.puntos_renta_inserted_ids = []
         self.clientes_inserted_ids = []

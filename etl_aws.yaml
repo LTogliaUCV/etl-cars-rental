@@ -1,0 +1,54 @@
+---
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Run the script for  ETL using AWS Batch
+
+Resources:
+  BatchJobDefinition:
+    Type: AWS::Batch::JobDefinition
+    Properties:
+      Type: container
+      ContainerProperties:
+        Image: <URL-de-la-imagen-de-Docker>
+        Vcpus: 2
+        Memory: 4096
+        Command:
+          - python3
+          - run_etl.py
+        Environment:
+          - Name: DB_NAME
+            Value: mydatabase.db
+          - Name: S3_INPUT_BUCKET
+            Value: myinputbucket
+          - Name: S3_OUTPUT_BUCKET
+            Value: myoutputbucket
+
+  BatchJobQueue:
+    Type: AWS::Batch::JobQueue
+    Properties:
+      Priority: 1
+      ComputeEnvironmentOrder:
+        - Order: 1
+          ComputeEnvironment: <ARN-del-entorno-de-computo-de-Batch>
+
+  BatchJob:
+    Type: AWS::Batch::Job
+    Properties:
+      JobDefinition: !Ref BatchJobDefinition
+      JobName: my-batch-job
+      JobQueue: !Ref BatchJobQueue
+      Parameters:
+        - Name: input_file
+          Value: s3://myinputbucket/myfile.csv
+        - Name: output_file
+          Value: s3://myoutputbucket/myfile_output.csv
+      DependsOn: BatchJobQueue
+
+  InputBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: myinputbucket
+
+  OutputBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: myoutputbucket
