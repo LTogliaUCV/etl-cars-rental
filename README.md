@@ -23,7 +23,7 @@ El modelo de datos está diseñado para permitir la relación entre las diferent
 - Create .env file using the env.example guide.
 - You can change the db name , table name using the .env file
 ## Usage
-
+Se debe usar los archivos csv creados usando faker, los cuales nos permiten imitar un etl pipeline de carga de archivos cvs
 ```python
 python run_etl.py
 python tables.py
