@@ -27,6 +27,7 @@ Se debe usar los archivos csv creados usando faker, los cuales nos permiten imit
 ```python
 python run_etl.py
 python tables.py
+python test.py  # para test unitarios
 ```
 
 ## Next Step
